@@ -1,7 +1,7 @@
 class Item {
-  private valor: number;
-  private nome: string;
-  private descricao: string;
+  public valor: number;
+  public nome: string;
+  public descricao: string;
 
   constructor(valor: number, nome: string, descricao: string) {
     this.valor = valor;

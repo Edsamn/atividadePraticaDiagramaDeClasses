@@ -1,8 +1,8 @@
 import FormatoDeElemento from "./FormatoDeElemento";
 
 class Retangulo extends FormatoDeElemento {
-  private comprimento: number;
-  private altura: number;
+  public comprimento: number;
+  public altura: number;
 
   constructor(comprimento: number, altura: number) {
     super();

@@ -1,10 +1,10 @@
-class Desconto {
+export class Desconto {
   aplicarDescontoEmPorcentagem(desconto: number) {}
 
   recuperarValorTotal() {}
 }
 
-class ValorPedido {
+export class ValorPedido {
   itens: ItemPedido[];
 
   constructor() {
@@ -21,7 +21,7 @@ class ValorPedido {
   }
 }
 
-class Pedido extends ValorPedido {
+export class Pedido extends ValorPedido {
   itens: ItemPedido[] = [];
 
   add(item: ItemPedido): void {
@@ -40,7 +40,7 @@ class Pedido extends ValorPedido {
   }
 }
 
-class ItemPedido extends ValorPedido {
+export class ItemPedido extends ValorPedido {
   valor: number;
   nome: string;
   quantidade: number;

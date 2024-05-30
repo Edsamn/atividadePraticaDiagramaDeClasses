@@ -1,12 +1,12 @@
 import Item from "./Item";
 
 class Pedido {
-  private itens: Item[];
-  private valorTotal: number;
+  public itens: Item[];
+  public valorTotal: number;
 
-  constructor(itens: Item[], valorTotal: number) {
+  constructor() {
     this.itens = [];
-    this.valorTotal = valorTotal;
+    this.valorTotal = 0;
   }
 }
 

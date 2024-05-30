@@ -1,7 +1,7 @@
 import FormatoDeElemento from "./FormatoDeElemento";
 
 class Circulo extends FormatoDeElemento {
-  private raio: number;
+  public raio: number;
 
   constructor(raio: number) {
     super();

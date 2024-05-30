@@ -11,7 +11,7 @@ import Usuario from "./model/Usuario";
 
 const item1 = new Item(50, "pneu", "pneu aro 26 bicileta");
 const item2 = new Item(30, "eixo", "eixo traseiro bicicleta");
-const pedido1 = new Pedido([item1, item2], 80);
+const pedido1 = new Pedido();
 const retangulo1 = new Retangulo(15, 20);
 const circulo1 = new Circulo(30);
 const cachorro = new Cachorro();

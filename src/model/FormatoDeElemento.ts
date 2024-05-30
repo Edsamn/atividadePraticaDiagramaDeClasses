@@ -1,6 +1,6 @@
 abstract class FormatoDeElemento {
-  abstract desenhar(): void;
-  abstract redimensionar(): void;
+  public desenhar(): void {}
+  public redimensionar(): void {}
 }
 
 export default FormatoDeElemento;
